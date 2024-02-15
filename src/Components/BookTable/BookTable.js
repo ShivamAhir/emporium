@@ -1,6 +1,6 @@
 import React from 'react'
 import './Style.css'
-import { Stack ,Box,Typography,TextField,Button} from '@mui/material'
+import { Stack ,Box,Typography,TextField,Button,FormControl,InputLabel,MenuItem,Select} from '@mui/material'
 const BookTable = () => {
   return (
     <Stack sx={{display:'flex',alignItems:'center'}}>
@@ -32,18 +32,36 @@ const BookTable = () => {
                     <Typography variant='h5'>
                         Name
                     </Typography>
-                    <TextField/>
+                    <TextField label='Name'/>
                 </Stack>
                 <Stack sx={{width:'300px'}} gap={3}>
                     <Typography variant='h5'>
                         Phone
                     </Typography>
-                    <TextField/>
+                    <TextField type='number' label='Phone' size='large' 
+                    inputProps={{
+                        maxLength: 10,
+                    }}/>
                 </Stack>
             </Stack>
             <Stack  gap={3}>
                 <Typography variant='h5'>Total Person</Typography>
-                <TextField/>
+                <FormControl fullWidth>
+                <InputLabel id="demo-simple-select-label">Persons</InputLabel>
+                <Select
+                    labelId="demo-simple-select-label"
+                    id="demo-simple-select"
+                    // value={age}
+                    label="Persons"
+                    // onChange={handleChange}
+                >
+                    <MenuItem value={1}>one</MenuItem>
+                    <MenuItem value={2}>Two</MenuItem>
+                    <MenuItem value={3}>Third</MenuItem>
+                    <MenuItem value={4}>Four</MenuItem>
+                    <MenuItem value={5}>Five</MenuItem>
+                </Select>
+                </FormControl>
             </Stack>
             <Stack>
                 <Button color='error' variant='contained' size='large'>Book A Table</Button>

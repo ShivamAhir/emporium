@@ -6,6 +6,7 @@ import MainPage from './LandingPage/MainPage';
 import About from './AboutPage/About';
 import MenuPage from './Menu/MenuPage'
 import BookTable from './BookTable/BookTable';
+import ContactPage from './ContactPage/ContactPage'
 
 const Home = () => {
   return (
@@ -17,7 +18,7 @@ const Home = () => {
         {/* <MainPage/> */}
         {/* <About/> */}
         {/* <MenuPage/> */}
-        <BookTable/>
+        <ContactPage/>
         <Footer/>
     </Box>
     
