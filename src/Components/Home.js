@@ -7,6 +7,7 @@ import About from './AboutPage/About';
 import MenuPage from './Menu/MenuPage'
 import BookTable from './BookTable/BookTable';
 import ContactPage from './ContactPage/ContactPage'
+import LoginAction from './LoginAction/LoginAction';
 
 const Home = () => {
   return (
@@ -15,10 +16,12 @@ const Home = () => {
     
     <Box sx={{  bgcolor: "#F7F9F9"}}>
        <Header/>
-        {/* <MainPage/> */}
-        {/* <About/> */}
-        {/* <MenuPage/> */}
-        <ContactPage/>
+       <LoginAction/>
+        <MainPage/>
+        {/* <About/>
+        <MenuPage/>
+        <BookTable/>
+        <ContactPage/> */}
         <Footer/>
     </Box>
     
