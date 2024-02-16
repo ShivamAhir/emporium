@@ -61,18 +61,18 @@ const Footer = () => {
                    <Stack  gap={3}>
                    <Stack direction={'row'} gap={2}>
                         <Stack sx={{width:'250px'}}>
-                            <img src='https://img.freepik.com/premium-photo/french-fries-sweet-potatoes-with-onion_97105-132.jpg?w=360'/>
+                            <img src='french-fries.avif'/>
                         </Stack>
                         <Stack sx={{width:'230px'}}>
-                            <img src='https://content.jdmagicbox.com/comp/def_content/pizza_outlets/default-pizza-outlets-7.jpg'/>
+                            <img src='default-pizza.avif'/>
                         </Stack>
                     </Stack>
                     <Stack direction={'row'} gap={2}>
                         <Stack sx={{width:'250px'}}>
-                            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7BrLBlr5f3E-OfQ8qcp7_wQuraImR5yMxBt4JfSD6ora5ODo_QQCdVH2FCp_ZvRrFheU&usqp=CAU'/>
+                            <img src='Pie.jpeg'/>
                         </Stack>
                         <Stack sx={{width:'230px'}}>
-                            <img src='https://media-assets.swiggy.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/fbbacd06e85b9459cc1cb411b07a00ec'/>
+                            <img src='momos.avif'/>
                         </Stack>
                     </Stack>
                    </Stack>

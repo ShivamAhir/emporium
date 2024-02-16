@@ -18,10 +18,10 @@ const Home = () => {
        <Header/>
        <LoginAction/>
         <MainPage/>
-        {/* <About/>
-        <MenuPage/>
-        <BookTable/>
-        <ContactPage/> */}
+        {/* <About/> */}
+        {/* <MenuPage/> */}
+        {/* <BookTable/> */}
+        <ContactPage/>
         <Footer/>
     </Box>
     
