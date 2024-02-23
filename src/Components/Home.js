@@ -21,7 +21,7 @@ const Home = () => {
         {/* <About/> */}
         {/* <MenuPage/> */}
         {/* <BookTable/> */}
-        <ContactPage/>
+        {/* <ContactPage/> */}
         <Footer/>
     </Box>
     
