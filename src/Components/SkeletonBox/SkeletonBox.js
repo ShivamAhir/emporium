@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box,Skeleton,Stack } from '@mui/material'
+import {Skeleton,Stack } from '@mui/material'
 
 const SkeletonBox = () => {
     const skeletonItems = [];
