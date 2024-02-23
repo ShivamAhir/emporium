@@ -15,7 +15,7 @@ const SkeletonBox = () => {
     );
   }
   return (
-   <Stack gap={5}  >
+   <Stack gap={10} sx={{marginTop:'50px'}} >
     <Stack gap={3} sx={{marginLeft:'100px'}}>
     <Skeleton variant="rounded" width={610} height={50} />
     <Skeleton variant="rounded" width={610} height={50} />
